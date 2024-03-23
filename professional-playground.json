@@ -1,0 +1,320 @@
+{
+  "rationales": [
+    {
+      "id": "general",
+      "creationDate": "2024-03-23T00:00:00Z",
+      "pathwayNodeId": "curated_programming_courses",
+      "reason": "Provide a structured learning path for aspiring developers.",
+      "methodology": "Incorporate feedback and proven methods over 8+ years."
+    },
+    {
+      "id": "typescript",
+      "updateDate": "2024-03-23T00:00:00Z",
+      "pathwayNodeId": "advanced_web_development",
+      "reason": "TypeScript is popular and enhances JavaScript development.",
+      "impact": "Prepare learners for advanced projects and opportunities."
+    }
+  ],
+  "pathways": {
+      "Community Scholar": {
+        "Onboarding": {},
+        "Clarifying Professional Learning Journey": {
+          "software_development": {
+            "description": "Pathway to become a proficient software developer",
+            "activities": {
+              "Curated Programming Courses": {
+                "JavaScript": {
+                  "Introduction": {
+                    "Code Academy: Introduction To JS (1 & 2)": {
+                      "Projects": {
+                        "Start Game Of Life V1": {},
+                        "Intermediate Concepts": {
+                          "Udemy: JavaScript The Weird Parts": {
+                            "Challenges": {
+                              "GFC Coding Interview Challenge": {}
+                            }
+                          }
+                        },
+                        "Start Game Of Life V2": {
+                          "Web Fundamentals": {
+                            "Code Academy: HTML": {
+                              "Code Academy: CSS": {
+                                "Completion": {
+                                  "Complete Game Of Life V2": {},
+                                  "Projects Showcase": {
+                                    "Identify Projects Showcase": {}
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "Advanced Web Development": {
+                          "Start Game Of Life V3": {},
+                          "TypeScript": {},
+                          "Frameworks and Libraries": {
+                            "Udemy Complete Angular Guide": {},
+                            "Udemy Complete React Course": {}
+                          }
+                        }
+                      }
+                    }
+                  },
+              },
+              "Coding Challenges": {
+                "GFC Coding Interview Challenge": {},
+                "Code Wars": {}
+              },
+              "Software Development": {
+                "Professional Portfolio": {
+                  "Portfolio Projects Showcase": {
+                    "Project 1": {},
+                    "Project 2": {},
+                    "Project 3": {}
+                  },
+                  "Game Of Life": {
+                    "V1: JavaScript (Console)": {},
+                    "V2: JS Library + HTML + CSS": {},
+                    "V3: JS Framework": {
+                      "Angular": {},
+                      "React": {}
+                    }
+                  }
+                },
+                "GitFitBot Development": {},
+                "GFC Community Backlog": {}
+              },
+              "Knowledge/Skills Portfolio": {
+                "Personal Workstation": {
+                  "IDE": {
+                    "Cursor": {},
+                    "VSCode": {}
+                  },
+                  "Terminal": {}
+                },
+                "Software Development LifeCycle Competency": {
+                  "Technologies": {},
+                  "Version Control": {
+                    "Git": {
+                      "GUI": {},
+                      "CLI": {}
+                    }
+                  },
+                  "Project Management": {
+                    "Task Management": {}
+                  },
+                  "Testing": {
+                    "Test Driven Development": {}
+                  }
+                }
+              }
+            }
+          }
+        },
+        "pathways": {
+          "software_development": {
+            "stages": {
+              "Community Scholar": {
+                "Clarifying Professional Learning Journey": {
+                  "activities": [
+                    {
+                      "title": "Curated Programming Courses",
+                      "topics": [
+                        {
+                          "language": "JavaScript",
+                          "modules": [
+                            {
+                              "title": "Introduction to JavaScript",
+                              "provider": "Code Academy",
+                              "versions": [
+                                "1",
+                                "2"
+                              ],
+                              "projects": [
+                                {
+                                  "title": "Start Game Of Life V1"
+                                }
+                              ]
+                            },
+                            {
+                              "title": "JavaScript The Weird Parts",
+                              "provider": "Udemy",
+                              "challenges": [
+                                {
+                                  "title": "GFC Coding Interview Challenge"
+                                }
+                              ]
+                            },
+                            {
+                              "title": "Start Game Of Life V2",
+                              "skills": [
+                                "HTML",
+                                "CSS"
+                              ],
+                              "completion": [
+                                {
+                                  "title": "Complete Game Of Life V2"
+                                },
+                                {
+                                  "title": "Identify Projects Showcase"
+                                }
+                              ]
+                            },
+                            {
+                              "Full Stack Development": {
+                                "modules": [
+                                  {
+                                    "title": "Advanced Frontend Development",
+                                    "skills": [
+                                      "TypeScript",
+                                      "Angular",
+                                      "React"
+                                    ],
+                                    "projects": [
+                                      {
+                                        "title": "Start Game Of Life V3"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "Backend Development": {
+                                      "Udemy: Node.js": {
+                                        "Databases": {
+                                          "SQL": {
+                                            "MySQL": {},
+                                            "Postgres": {}
+                                          },
+                                          "NoSQL": {
+                                            "MongoDB": {},
+                                            "Firebase": {}
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "language": "Python",
+                          "modules": [
+                            {
+                              "title": "Introduction to Python",
+                              "provider": "Code Academy",
+                              "continuation": [
+                                {
+                                  "title": "Automating the boring stuff",
+                                  "provider": "Udemy"
+                                },
+                                {
+                                  "title": "Python - The Practical Guide (Blockchain)",
+                                  "provider": "Udemy"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Coding Challenges",
+                      "challenges": [
+                        {
+                          "title": "GFC Coding Interview Challenge"
+                        },
+                        {
+                          "title": "Code Wars"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Software Development",
+                      "sub_activities": [
+                        {
+                          "title": "Professional Portfolio",
+                          "projects": [
+                            {
+                              "title": "Project 1"
+                            },
+                            {
+                              "title": "Project 2"
+                            },
+                            {
+                              "title": "Project 3"
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Game Of Life",
+                          "versions": [
+                            {
+                              "title": "V1: JavaScript (Console)"
+                            },
+                            {
+                              "title": "V2: JS Library + HTML + CSS"
+                            },
+                            {
+                              "title": "V3: JS Framework",
+                              "frameworks": [
+                                "Angular",
+                                "React"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Knowledge/Skills Portfolio",
+                      "sub_activities": [
+                        {
+                          "title": "Personal Workstation",
+                          "tools": [
+                            "IDE",
+                            "Terminal"
+                          ]
+                        },
+                        {
+                          "title": "Software Development LifeCycle Competency",
+                          "skills": [
+                            "Version Control",
+                            "Project Management",
+                            "Testing"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "Community Engagement": {
+          "Attend Community Events": {
+            "Community Hacking Sessions": {},
+            "GFC Retrospective": {},
+            "Channel Discussions": {}
+          },
+          "Direct Messaging": {},
+          "Lead Community Events": {},
+          "Forum and Thread Discussions": {},
+          "Community Support": {},
+          "Feedback Submissions": {}
+        }
+      }
+    }
+  },
+  "roles": [
+    "Spectator",
+    "Member",
+    "Pro Member",
+    "Contributor",
+    "Mentor",
+    "Moderator",
+    "Admin",
+    "Community Scholar"
+  ]
+}
