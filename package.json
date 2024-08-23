@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@commander-js/extra-typings": "^12.1.0",
+    "commander": "^12.1.0"
+  }
+}

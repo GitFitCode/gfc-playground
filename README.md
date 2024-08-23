@@ -8,7 +8,8 @@ So on that note, lets dive into the value that the basic graph representation pr
 
 1. It describe the structure of our professional playground
 2. Provides a bird's eye view of the potential interactions that could support in your journey as a practicioner in your own right 
-3. Please add more.. :) 
+3. Build confidence in navigating the terminal
+4.   
 
 miggymofongo in the buildin!! we makin a command line adventure for
 new people in the community! 
