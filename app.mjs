@@ -3,6 +3,13 @@
 import { Command } from 'commander';
 import chalkAnimation from 'chalk-animation';
 import Image from 'ascii-art-image';
+import readline from 'readline/promises';
+
+
+const rl = readline.createInterface({ 
+  input: process.stdin, 
+  output: process.stdout 
+});
 
 
 const program = new Command(); 
@@ -14,7 +21,7 @@ var image = new Image({
 
 program
     .name('gfc-playground-cli')
-    .description('GFC CLI will help you get started in GitFitCode')
+    .description('This GF Command Line Tool will help you get started in GitFitCode')
     .version('0.1.0')
   
 program
@@ -30,24 +37,50 @@ program
   
  })
 
-function introMessage() {
-  let str = "Welcome to GitFitCode! We are glad you are here (="
-  let str2 = "This command line interface tool will help orient you to your learning journey!"
-  const rainbow = chalkAnimation.rainbow(str + '\n' + str2);
+async function introMessage() {
 
-  // this outputs a ascii image of the gfc logo
- /* image.write(function(err, rendered){
+  const name = await rl.question('Hi! What do we call you? ');
+  
+
+  // this outputs a rainbow welcome message 
+
+  
+//this outputs a ascii image of the gfc logo
+image.write(function(err, rendered){
+
+  if (err) { //handles errors
+
+    console.error('error rendering image', err);
+  } else { // prints out the image, then a rainbow animation welcome message
+
     console.log(rendered);
-}) */ 
+  let str = `Welcome to GitFitCode, ${name}! We are glad you are here (=`;
+  const WelcomeMess = chalkAnimation.rainbow(str );
 
-// this outputs a rainbow welcome message 
-    setTimeout(() => {
-    rainbow.stop();
+  setTimeout(() => {    // stops the animation after 4 seconds, then displays the help menu
+    WelcomeMess.stop();
+    rl.close();
     program.outputHelp();
-  }, 2000)
+  }, 4000)
+  
+  }
+});
+   
+
 }
 
+
 introMessage();
+
+
+
+
+
+
+
+
+
+
 
 //program.parse(process.args)
 //program.showHelpAfterError('(add --help for additional information)');
